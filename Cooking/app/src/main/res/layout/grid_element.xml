@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <ProgressBar
+                    android:id="@+id/progressBar2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"/>
+                <ImageView
+                    android:id="@+id/grid_Img"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/grid_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/caviar_dreams"
+                android:gravity="start"
+                android:text="Title"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/top_border">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical"
+                        android:layout_weight="2">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:id="@+id/userImageGrid"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/user"
+                                />
+                            <TextView
+                                android:id="@+id/grid_author"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="10dp"
+                                android:fontFamily="@font/caviar_dreams"
+                                android:gravity="start"
+                                android:maxLength="20"
+                                android:text="Author"
+                                android:textColor="@color/black"
+                                android:textSize="14dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/love2"/>
+
+                            <TextView
+                                android:id="@+id/gridLike"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:fontFamily="@font/caviar_dreams"
+                                android:text="like"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:id="@+id/gridBtn"
+                        android:layout_margin="10dp"
+                        android:layout_width="50dp"
+                        android:src="@drawable/book"
+                        android:layout_height="50dp"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@drawable/bottom_border"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

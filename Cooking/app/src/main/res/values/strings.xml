@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dapoer Emak</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="help">Help</string>
+    <string name="about">About Us</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Resep Anda</string>
+    <string name="menu_slideshow">Resep Favorit</string>
+    <string name="menu1">Profile</string>
+    <string name="tambahFAB">Tambah Resep</string>
+    <string name="temp">Applikasi ini adalah aplikasi yang memberikan akses untuk berbagi resep bagi sesama ibu-ibu atau untuk orang-orang yang ingin mencoba memasak. Aplikasi ini dikembangkan hanya untuk tugas akhir kuliah mata kuliah pemrograman mobile. Dikembangkan oleh Pratama Aditya dengan NIM 191401131, memberikan akses untuk menambahkan resep, mencari resep, dan memberikan like pada resep lain.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBmm6FSkz7D8x8yZy21DW8C_6bkH9Ew3Mc</string>
+    <string-array name="category">
+        <item>Minuman</item>
+        <item>Makanan</item>
+        <item>Bakery</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

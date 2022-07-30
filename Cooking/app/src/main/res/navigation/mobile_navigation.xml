@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.temp2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_homeFragmentSearch2"
+            app:destination="@id/homeFragmentSearch" />
+        <action
+            android:id="@+id/action_nav_home_to_homeFragmentSearch1"
+            app:destination="@id/homeFragmentSearch1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.temp2.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_nav_gallery_self"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.temp2.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" >
+        <action
+            android:id="@+id/action_nav_slideshow_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu12"
+        android:name="com.example.temp2.ui.menu1.menu1"
+        android:label="menu1_fragment"
+        tools:layout="@layout/menu1_fragment" />
+    <fragment
+        android:id="@+id/homeFragmentSearch"
+        android:name="com.example.temp2.ui.home.HomeFragmentSearch"
+        android:label="Search"
+        tools:layout="@layout/fragment_homesearch" >
+        <action
+            android:id="@+id/action_homeFragmentSearch_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_homeFragmentSearch_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.temp2.ui.detail.DetailFragment"
+        android:label="Resep Detail"
+        tools:layout="@layout/detail_fragment" />
+    <fragment
+        android:id="@+id/homeFragmentSearch1"
+        android:name="com.example.temp2.ui.home.HomeFragmentSearch1"
+        android:label="Search"
+        tools:layout="@layout/fragment_home_search1" >
+        <action
+            android:id="@+id/action_homeFragmentSearch1_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_homeFragmentSearch1_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeFragmentSearch1_to_homeFragmentSearch"
+            app:destination="@id/homeFragmentSearch" />
+    </fragment>
+</navigation>

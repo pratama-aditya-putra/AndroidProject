@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "695711078426",
+    "project_id": "moonlit-casing-312919",
+    "storage_bucket": "moonlit-casing-312919.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695711078426:android:45516fb7b374af663859a3",
+        "android_client_info": {
+          "package_name": "com.example.temp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695711078426-sshc09m84b5afup0kkcs0qvom5hqpkrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQFtbiQ5FSiW62oFbOX1nl16liRfXbY7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695711078426-sshc09m84b5afup0kkcs0qvom5hqpkrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
